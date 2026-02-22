@@ -1,0 +1,31 @@
+{
+  "banner_enabled": false,
+  "banner_text": "Now booking for birthdays & celebrations!",
+  "headline": "Cookie cakes & sweet treats for every celebration.",
+  "subheadline": "Homemade, from scratch, made with love in Gatesville, TX.",
+  "menu": {
+    "round": [
+      { "size": "6-inch", "serves": "Serves 4–6", "price": "$22 (simple) • $27–$30 (custom)" },
+      { "size": "8-inch", "serves": "Serves 8–12", "price": "$32 (simple) • $38–$42 (custom)" }
+    ],
+    "rectangle": [
+      { "size": "Small Rectangle", "serves": "Serves 12–16", "price": "$45 (simple) • $55–$60 (custom)" }
+    ],
+    "cupcakes": [
+      { "size": "6 cupcakes", "serves": "Half dozen", "price": "$16 (+$6 custom theme)" }
+    ],
+    "cakepops": [
+      { "size": "6 cake pops", "price": "$15 (+$6 custom theme)" }
+    ]
+  },
+  "policies": {
+    "deposit": "50% deposit required to secure your date.",
+    "notice": "3–5 days notice preferred.",
+    "rush": "Rush orders available when possible."
+  },
+  "contact": {
+    "email": "cookie.cakesbycarls@hotmail.com",
+    "facebook": "https://www.facebook.com/cookiecakesbycarls",
+    "pickup": "Gatesville pickup available."
+  }
+}
