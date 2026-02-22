@@ -1,0 +1,71 @@
+backend:
+  name: github
+  repo: cookiecakebycarls/cookiecakesbycarls-website
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - name: "content"
+        label: "Main Content"
+        file: "content/site.json"
+        fields:
+          - { label: "Seasonal Banner (on/off)", name: "banner_enabled", widget: "boolean", default: false }
+          - { label: "Banner Text", name: "banner_text", widget: "string", required: false }
+          - { label: "Homepage Headline", name: "headline", widget: "string" }
+          - { label: "Homepage Subheadline", name: "subheadline", widget: "text" }
+
+          - label: "Menu Pricing"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Round Cookie Cakes"
+                name: "round"
+                widget: "list"
+                fields:
+                  - { label: "Size", name: "size", widget: "string" }
+                  - { label: "Serves", name: "serves", widget: "string" }
+                  - { label: "Price Text", name: "price", widget: "string" }
+
+              - label: "Rectangle Cookie Cakes"
+                name: "rectangle"
+                widget: "list"
+                fields:
+                  - { label: "Size", name: "size", widget: "string" }
+                  - { label: "Serves", name: "serves", widget: "string" }
+                  - { label: "Price Text", name: "price", widget: "string" }
+
+              - label: "Cookie Cupcakes"
+                name: "cupcakes"
+                widget: "list"
+                fields:
+                  - { label: "Quantity", name: "size", widget: "string" }
+                  - { label: "Details", name: "serves", widget: "string", required: false }
+                  - { label: "Price Text", name: "price", widget: "string" }
+
+              - label: "Cookie Cake Pops"
+                name: "cakepops"
+                widget: "list"
+                fields:
+                  - { label: "Quantity", name: "size", widget: "string" }
+                  - { label: "Price Text", name: "price", widget: "string" }
+
+          - label: "Policies"
+            name: "policies"
+            widget: "object"
+            fields:
+              - { label: "Deposit Text", name: "deposit", widget: "string" }
+              - { label: "Notice Text", name: "notice", widget: "string" }
+              - { label: "Rush Text", name: "rush", widget: "string" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Facebook URL", name: "facebook", widget: "string" }
+              - { label: "Pickup Text", name: "pickup", widget: "string" }
