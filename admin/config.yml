@@ -1,6 +1,5 @@
 backend:
   name: github
-  repo: cookiecakebycarls/cookiecakesbycarls-website
   branch: main
 
 media_folder: "assets/uploads"
