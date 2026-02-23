@@ -3,6 +3,7 @@ backend:
   repo: cookiecakesbycarls/cookiecakesbycarls.github.io
   branch: main
   auth_type: implicit
+  client_id: Ov23lipMFLtV0h5A0b5j
   
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
