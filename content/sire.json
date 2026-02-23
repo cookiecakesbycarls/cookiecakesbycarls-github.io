@@ -5,11 +5,14 @@
   "subheadline": "Homemade, from scratch, made with love in Gatesville, TX.",
   "menu": {
     "round": [
-      { "size": "6-inch", "serves": "Serves 4–6", "price": "$22 (simple) • $27–$30 (custom)" },
-      { "size": "8-inch", "serves": "Serves 8–12", "price": "$32 (simple) • $38–$42 (custom)" }
+      { "size": "8-inch", "serves": "Serves 8–12", "price": "$32 (simple) • $45 (custom)" }
+      { "size": "10-inch", "serves": "Serves 12-15", "price": "$38 (simple) • $55 (custom)"}
+      { "size": "12-inch", "serves": "Serves 16-20", "price": "$48 (simple) •$65 (custom)"}
     ],
     "rectangle": [
-      { "size": "Small Rectangle", "serves": "Serves 12–16", "price": "$45 (simple) • $55–$60 (custom)" }
+      { "size": "Small Rectangle", "serves": "Serves 12–16", "price": "$45 (simple) • $$60 (custom)" }
+            { "size": "Medium Rectangle", "serves": "Serves 20-24", "price": "$55 (simple) • $70 (custom)" }
+            { "size": "Large Rectangle", "serves": "Serves 30-36", "price": "$65 (simple) • $80 (custom)" }
     ],
     "cupcakes": [
       { "size": "6 cupcakes", "serves": "Half dozen", "price": "$16 (+$6 custom theme)" }
